@@ -55,7 +55,7 @@ npm start
 ```
 The frontend will be running at http://localhost:3000.
 
-###API Endpoints
+### API Endpoints
 - GET /api/weatherforecast: Retrieve a list of all weather data.
 - POST /api/weatherforecast: Add a new weather entry.
 - PUT /api/weatherforecast/{date}: Update an existing weather entry by date.
