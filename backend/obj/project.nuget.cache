@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "zfBOHT+7Dtw=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Treeskyx\\Documents\\Github\\aspnetcore-web-development-example\\backend\\backend.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Treeskyx\\.nuget\\packages\\microsoft.aspnetcore.openapi\\9.0.1\\microsoft.aspnetcore.openapi.9.0.1.nupkg.sha512",
+    "C:\\Users\\Treeskyx\\.nuget\\packages\\microsoft.openapi\\1.6.17\\microsoft.openapi.1.6.17.nupkg.sha512"
+  ],
+  "logs": []
+}
