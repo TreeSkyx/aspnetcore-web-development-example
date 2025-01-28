@@ -1,3 +1,0 @@
-﻿<Project>
-  <Import Project="..\buildMultiTargeting\aspnetcore-web-development-example.props" />
-</Project>
