@@ -6,6 +6,16 @@ builder.Services.AddOpenApi();
 
 var app = builder.Build();
 
+builder.Services.AddCors(options =>
+{
+    options.AddPolicy("AllowReactApp", policy =>
+    {
+        policy.WithOrigins("http://localhost:3000") // React's Frontend URL
+              .AllowAnyHeader()
+              .AllowAnyMethod();
+    });
+});
+
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
 {
